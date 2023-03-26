@@ -16,4 +16,4 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://react-next-blog-app-template-nwji.vercel.app)
+The app is already deployed on [Check it out!](https://react-next-blog-app-template-nwji.vercel.app)
