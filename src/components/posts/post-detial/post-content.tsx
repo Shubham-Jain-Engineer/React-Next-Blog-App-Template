@@ -37,11 +37,9 @@ function PostContent(props: any) {
       const { className, children } = code;
       const language = className.split('-')[1]; // className is something like language-js => We need the "js" part here
       return (
-        <SyntaxHighlighter
-          style={atomDark}
-          language={language}
-          children={children}
-        />
+        <SyntaxHighlighter style={atomDark} language={language}>
+          {children}
+        </SyntaxHighlighter>
       );
     },
   };
@@ -49,7 +47,8 @@ function PostContent(props: any) {
   return (
     <article className={classes.content}>
       <PostHeader title={post.title} image={imagePath} />
-      <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
+      {/*  components={customRenderers} */}
+      <ReactMarkdown>{post.content}</ReactMarkdown>
     </article>
   );
 }
