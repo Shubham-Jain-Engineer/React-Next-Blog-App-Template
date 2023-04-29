@@ -46,8 +46,4 @@
 
 <p>Contributions to the React Next Blog App Template are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request. Your contributions will be greatly appreciated.</p>
 
-<h2>License</h2>
 
-<p>The React Next Blog App Template is released under the MIT License. Please see the <a href="./LICENSE">LICENSE</a> file for more details.</p>
-
-<p>Happy coding!</p>
